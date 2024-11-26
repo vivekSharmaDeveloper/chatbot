@@ -1,0 +1,30 @@
+# Node.js dependencies
+/node_modules/
+
+# Build output
+/dist/
+/build/
+
+# Environment files (never commit sensitive data)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+/.idea/
+/.vscode/
+
+# Other files to ignore (can be customized for your project)
+*.bak
+*.swp
+*.swo
